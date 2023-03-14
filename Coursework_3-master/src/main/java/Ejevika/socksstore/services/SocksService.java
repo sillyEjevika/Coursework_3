@@ -1,8 +1,8 @@
-package sillyEjevika.socksstore.services;
+package Ejevika.socksstore.services;
 
-import sillyEjevika.socksstore.models.enums.Color;
-import sillyEjevika.socksstore.models.enums.Size;
-import sillyEjevika.socksstore.models.Socks;
+import Ejevika.socksstore.models.Socks;
+import Ejevika.socksstore.models.enums.Color;
+import Ejevika.socksstore.models.enums.Size;
 
 import java.util.List;
 

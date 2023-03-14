@@ -1,4 +1,4 @@
-package sillyEjevika.socksstore.exceptions;
+package Ejevika.socksstore.exceptions;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

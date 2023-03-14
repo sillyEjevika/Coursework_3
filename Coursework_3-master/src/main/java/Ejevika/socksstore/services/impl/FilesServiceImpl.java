@@ -1,10 +1,10 @@
-package sillyEjevika.socksstore.services.impl;
+package Ejevika.socksstore.services.impl;
 
+import Ejevika.socksstore.services.FilesService;
 import org.apache.commons.io.IOUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
-import sillyEjevika.socksstore.services.FilesService;
 
 import javax.annotation.PostConstruct;
 import java.io.File;
