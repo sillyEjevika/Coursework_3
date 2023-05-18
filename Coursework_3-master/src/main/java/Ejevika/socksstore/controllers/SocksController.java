@@ -1,5 +1,7 @@
-package sillyEjevika.socksstore.controllers;
+package Ejevika.socksstore.controllers;
 
+import Ejevika.socksstore.models.Socks;
+import Ejevika.socksstore.models.enums.Size;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.Parameters;
@@ -12,10 +14,8 @@ import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import sillyEjevika.socksstore.models.enums.Color;
-import sillyEjevika.socksstore.models.enums.Size;
-import sillyEjevika.socksstore.models.Socks;
-import sillyEjevika.socksstore.services.SocksService;
+import Ejevika.socksstore.models.enums.Color;
+import Ejevika.socksstore.services.SocksService;
 
 import javax.validation.Valid;
 import java.util.List;

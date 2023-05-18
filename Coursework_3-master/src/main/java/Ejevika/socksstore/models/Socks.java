@@ -1,10 +1,10 @@
-package sillyEjevika.socksstore.models;
+package Ejevika.socksstore.models;
 
+import Ejevika.socksstore.models.enums.Size;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import sillyEjevika.socksstore.models.enums.Color;
-import sillyEjevika.socksstore.models.enums.Size;
+import Ejevika.socksstore.models.enums.Color;
 
 import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;

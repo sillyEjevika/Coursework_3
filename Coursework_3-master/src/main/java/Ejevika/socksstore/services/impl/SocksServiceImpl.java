@@ -1,16 +1,16 @@
-package sillyEjevika.socksstore.services.impl;
+package Ejevika.socksstore.services.impl;
 
+import Ejevika.socksstore.models.Socks;
+import Ejevika.socksstore.models.enums.OperationType;
+import Ejevika.socksstore.models.enums.Size;
+import Ejevika.socksstore.services.FilesService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Service;
-import sillyEjevika.socksstore.models.enums.Color;
-import sillyEjevika.socksstore.models.enums.OperationType;
-import sillyEjevika.socksstore.models.enums.Size;
-import sillyEjevika.socksstore.models.Socks;
-import sillyEjevika.socksstore.services.FilesService;
-import sillyEjevika.socksstore.services.OperationsService;
-import sillyEjevika.socksstore.services.SocksService;
+import Ejevika.socksstore.models.enums.Color;
+import Ejevika.socksstore.services.OperationsService;
+import Ejevika.socksstore.services.SocksService;
 
 import javax.annotation.PostConstruct;
 import java.util.*;

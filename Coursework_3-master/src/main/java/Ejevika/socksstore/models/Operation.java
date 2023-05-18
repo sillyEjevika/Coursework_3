@@ -1,12 +1,12 @@
-package sillyEjevika.socksstore.models;
+package Ejevika.socksstore.models;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import sillyEjevika.socksstore.models.enums.Color;
-import sillyEjevika.socksstore.models.enums.OperationType;
-import sillyEjevika.socksstore.models.enums.Size;
+import Ejevika.socksstore.models.enums.Color;
+import Ejevika.socksstore.models.enums.OperationType;
+import Ejevika.socksstore.models.enums.Size;
 
 import java.time.LocalDateTime;
 

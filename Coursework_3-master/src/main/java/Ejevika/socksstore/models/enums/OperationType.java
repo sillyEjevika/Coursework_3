@@ -1,4 +1,4 @@
-package sillyEjevika.socksstore.models.enums;
+package Ejevika.socksstore.models.enums;
 
 public enum OperationType {
     ADD("Приёмка"), REMOVE("Выдача");

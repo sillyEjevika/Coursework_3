@@ -1,4 +1,4 @@
-package sillyEjevika.socksstore.services;
+package Ejevika.socksstore.services;
 
 import org.springframework.web.multipart.MultipartFile;
 

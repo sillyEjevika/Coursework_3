@@ -1,4 +1,4 @@
-package sillyEjevika.socksstore.models.enums;
+package Ejevika.socksstore.models.enums;
 
 public enum Color {
     RED("Красный"), GREEN("Зелёный"), BLUE("Синий"), YELLOW("Жёлтый"), ORANGE("Оранжевый"),

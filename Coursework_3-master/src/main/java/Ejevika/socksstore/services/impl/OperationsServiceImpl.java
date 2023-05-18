@@ -1,15 +1,15 @@
-package sillyEjevika.socksstore.services.impl;
+package Ejevika.socksstore.services.impl;
 
+import Ejevika.socksstore.models.Operation;
+import Ejevika.socksstore.models.Socks;
+import Ejevika.socksstore.models.enums.OperationType;
+import Ejevika.socksstore.services.FilesService;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.springframework.stereotype.Service;
-import sillyEjevika.socksstore.models.Operation;
-import sillyEjevika.socksstore.models.enums.OperationType;
-import sillyEjevika.socksstore.models.Socks;
-import sillyEjevika.socksstore.services.FilesService;
-import sillyEjevika.socksstore.services.OperationsService;
+import Ejevika.socksstore.services.OperationsService;
 
 import javax.annotation.PostConstruct;
 import java.util.LinkedList;

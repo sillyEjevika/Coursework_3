@@ -1,4 +1,4 @@
-package sillyEjevika.socksstore.models.enums;
+package Ejevika.socksstore.models.enums;
 
 public enum Size {
     S(23), M(25), L(27), XL(29), XXL(31), XXXL(33);

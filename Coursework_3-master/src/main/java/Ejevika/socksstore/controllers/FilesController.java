@@ -1,4 +1,4 @@
-package sillyEjevika.socksstore.controllers;
+package Ejevika.socksstore.controllers;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -11,7 +11,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import sillyEjevika.socksstore.services.FilesService;
+import Ejevika.socksstore.services.FilesService;
 
 import java.io.File;
 import java.io.FileInputStream;
